@@ -7,7 +7,7 @@ const databasePath = path.join(__dirname, "todoApplication.db");
 
 const app = express();
 
-app.use(express.json();)
+app.use(express.json());
 const bcrypt = require("bcrypt");
 let jwt = require("jsonwebtoken");
 
